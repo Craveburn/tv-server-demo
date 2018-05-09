@@ -1,7 +1,7 @@
-const config = require('./config.js')
+require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
-const db = require('monk')(config.mongoConnString)
+const db = require('monk')(process.env.mongoConnString)
 const showsCollection = db.get('shows')
 const app = express()
 

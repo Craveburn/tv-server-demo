@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Craveburn/tv-server-demo#readme",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "monk": "^6.0.5",
     "nodemon": "^1.17.4"
